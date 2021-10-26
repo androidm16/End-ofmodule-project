@@ -2,9 +2,10 @@
 
 }
 .navbar-nav{
-
+    color: blue;
 }
 .header{
+    justify-content: center;
     padding: 30px 35px;
     position: fixed;
     top: 0;
@@ -48,7 +49,31 @@
     font-size: 24px;
     color: #ffffff;
 }
-.Work-and-Education-section{
+.navbar-toggler-icon{
+    color: black;
+    
+}
+.work-and-Education{
+    height: 100vh;
+    width: 100%;
+    padding: 60px 0 40px;
+}
+.Skills{
+    height: 100vh;
+    width: 100%;
+    padding: 60px 0 40px;
+}
+.projects-section{
+    height: 100vh;
+    width: 100%;
+    padding: 60px 0 40px;
+}
+.Testimonials{
+    height: 100vh;
+    width: 100%;
+    padding: 60px 0 40px;
+}
+.Contact-Me{
     height: 100vh;
     width: 100%;
     padding: 60px 0 40px;
