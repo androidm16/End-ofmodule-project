@@ -37,20 +37,31 @@
     background-size: cover;
     box-sizing: border-box;
 }
+.social-widget-header{
+    position: absolute;
+    margin: 20px 30px 0;
+    padding: 15px 0;
+}
+.About{
+    justify-content: space-evenly;
+
+}
 .about-me-section-align-left{
     height: 100vh;
     width: 100%;
     padding: 100px 0 40px;
     padding-left: 50px;
 }
-.img1{
+.img1 {
+    height: 700px;
     position: relative;
     top: 0px;
-    font-size: 24px;
+    /* font-size: 24px; */
     color: #ffffff;
 }
 .navbar-toggler-icon{
     color: black;
+    visibility: visible;
     
 }
 .work-and-Education{
@@ -72,9 +83,20 @@
     height: 100vh;
     width: 100%;
     padding: 60px 0 40px;
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/05/07/25/sunset-5004905_960_720.jpg);
+    background-size: cover;
+    
 }
 .Contact-Me{
     height: 100vh;
     width: 100%;
     padding: 60px 0 40px;
+}
+/* .carouselExampleCaptions{
+    height: 100vh;
+    width: 100%;
+    padding: 60px 0 40px;
+} */
+.carousel-inner{
+    height: 100p0x;
 }
