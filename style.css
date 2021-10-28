@@ -1,6 +1,6 @@
-.overlay{
+/* .overlay{
 
-}
+} */
 .navbar-nav{
     color: blue;
 }
@@ -47,7 +47,7 @@
 
 }
 .about-me-section-align-left{
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     padding: 100px 0 40px;
     padding-left: 50px;
@@ -58,11 +58,21 @@
     top: 0px;
     /* font-size: 24px; */
     color: #ffffff;
+    width: 100%;
+    padding-bottom: 50px;
+}
+.list-inline{
+    display: block;
+    
 }
 .navbar-toggler-icon{
     color: black;
     visibility: visible;
     
+}
+.navbar-toggler-icon{
+    color: black;
+    background-color:white;
 }
 .work-and-Education{
     height: 100vh;
@@ -86,6 +96,10 @@
     background-image: url(https://cdn.pixabay.com/photo/2020/04/05/07/25/sunset-5004905_960_720.jpg);
     background-size: cover;
     
+}
+
+.d-block{
+    margin: auto
 }
 .Contact-Me{
     height: 100vh;
