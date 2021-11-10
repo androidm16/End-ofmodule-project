@@ -49,8 +49,23 @@
 
 .About{
     justify-content: space-evenly;
-
+    
 }
+
+/* .fancy-border-radius-1 {
+    border-radius: 29% 71% 56% 44% / 43% 67% 33% 57%;
+  
+    width: 300px;
+    height: 200px;
+    background: #f6c102;
+    background: -webkit-linear-gradient(to bottom right,
+        #f6c102,
+        #ffe496);
+    background: linear-gradient(to bottom right,
+        #f6c102,
+        #ffe496);
+  } */
+
 .about-me-section-align-left{
     height: 200vh;
     width: 100%;
@@ -83,7 +98,11 @@
     height: 100vh;
     width: 100%;
     padding: 60px 0 40px;
+    background-color: black;
 }
+/* .border{
+    color: thick solid black;
+} */
 .Skills{
     height: 100vh;
     width: 100%;
@@ -122,7 +141,7 @@
     padding: 60px 0 40px;
 } */
 .carousel-inner{
-    height: 100p0x;
+    height: 100%;
 }
 
 /* Typewriter animation inspired by CSS Tricks*/
