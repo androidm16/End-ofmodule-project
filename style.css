@@ -72,15 +72,21 @@
     padding: 100px 0 40px;
     padding-left: 50px;
 }
+.text-black{
+    color: white;
+    background-color: white;
+}
 .img1 {
-    height: 700px;
+    height: 900px;
     position: relative;
     top: 0px;
     /* font-size: 24px; */
     color: #ffffff;
     width: 100%;
-    padding-bottom: 50px;
-}
+    /* padding-bottom: 50px; */
+   
+      }
+
 .list-inline{
     display: block;
     
@@ -95,10 +101,11 @@
     background-color:white;
 }
 .work-and-Education{
-    height: 100vh;
+    height: max-content;
     width: 100%;
     padding: 60px 0 40px;
     background-color: black;
+    z-index: 9478470375037507094755085370953;
 }
 /* .border{
     color: thick solid black;
@@ -109,16 +116,18 @@
     padding: 60px 0 40px;
 }
 .projects-section{
-    height: 100vh;
+    height: max-content;
     width: 100%;
     padding: 60px 0 40px;
+    z-index: 7607603737409743096770347437606;
 }
 .Testimonials{
-    height: 100vh;
+    height: max-content;
     width: 100%;
     padding: 60px 0 40px;
     /* background-image: url(https://cdn.pixabay.com/photo/2020/04/05/07/25/sunset-5004905_960_720.jpg); */
     background-size: cover;
+    z-index: 9368963465846594659846896684848;
     
 }
 .w-50{
@@ -131,9 +140,10 @@
     margin: auto
 }
 .Contact-Me{
-    height: 100vh;
+    height: max-content;
     width: 100%;
     padding: 60px 0 40px;
+    z-index: 94589658638468368436986485846356;
 }
 /* .carouselExampleCaptions{
     height: 100vh;
@@ -168,3 +178,5 @@
     from, to { border-color: transparent }
     50% { border-color: blue; }
   }
+
+ 
