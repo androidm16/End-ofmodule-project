@@ -1,202 +1,6 @@
-/* .overlay{
-
-} */
-/* .navbar-nav{
-    color: blue;
-    
-} */
-/* .header{
-    justify-content: center;
-    padding: 30px 35px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 20;
-    opacity: 1;
-    visibility: visible;
-}
-.header .navbar-brand{
-    position: relative;
-    float: left;
-    font-family: 'Kaushan Script', helvetica;
-    font-size: 32px;
-    line-height: 46px;
-    font-weight: 600;
-    color: black;
-} */
-/* .nav-link{
-    color: black;
-    font-size: larger;
-} */
-.Home .slide{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
-}
-.social-widget-header{
-    position: absolute;
-    margin: 20px 30px 0;
-    padding: 15px 0;
-    justify-content: center;
-}
-
-.testcarousel{text-align: center;}
-
-.About{
-    justify-content: space-evenly;
-    
-}
-
-/* .fancy-border-radius-1 {
-    border-radius: 29% 71% 56% 44% / 43% 67% 33% 57%;
-  
-    width: 300px;
-    height: 200px;
-    background: #f6c102;
-    background: -webkit-linear-gradient(to bottom right,
-        #f6c102,
-        #ffe496);
-    background: linear-gradient(to bottom right,
-        #f6c102,
-        #ffe496);
-  } */
-
-.about-me-section-align-left{
-    height: 200vh;
-    width: 100%;
-    padding: 100px 0 40px;
-    padding-left: 50px;
-}
-.text-black{
-    color: white;
-    background-color: white;
-}
-.img1 {
-    height: 900px;
-    position: relative;
-    top: 0px;
-    /* font-size: 24px; */
-    color: #ffffff;
-    width: 90%;
-    border-radius: 500px;
-    /* padding-bottom: 50px; */
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-      }
-
-.list-inline{
-    display: block;
-    
-/* }
-.navbar-toggler-icon{
-    color: black;
-    visibility: visible;
-    
-}
-.navbar-toggler-icon{
-    color: black;
-    background-color:white; */
-}
-.Resume{
-    height: 100vh;
-    width: 100%;
-    padding: 60px 0 40px;
-    background-color:  rgba(97, 96, 92, 0.527);
-    z-index: 9478470375037507094755085370953;
-}
-/* .border{
-    color: thick solid black;
-} */
-.Skills{
-    height: 100vh;
-    width: 50%;
-    padding: 60px 0 40px;
-    z-index: 7607603737409743096770347437606;
-}
-.projects-section{
-    height: max-content;
-    width: 100%;
-    padding: 60px 0 40px;
-    z-index: 9607603737409743096770347437606;
-}
-.Testimonials{
-    height: 100vh;
-    width: 100%;
-    padding: 60px 0 40px;
-    /* background-image: url(https://cdn.pixabay.com/photo/2020/04/05/07/25/sunset-5004905_960_720.jpg); */
-    background-size: cover;
-    z-index: 9368963465846594659846896684848;
-    
-}
-.w-50{
-    text-align: center;
-    height: 300px;
-    width: 100px;
-    border-radius: 250px;
-} 
-
-.d-block{
-    margin: auto
-}
-.Contact-Me{
-    height: max-content;
-    width: 100%;
-    padding: 60px 0 40px;
-    z-index: 94589658638468368436986485846356;
-}
-
-
-
-/* carousel section */
-
-
-/* .carouselExampleCaptions{
-    height: 100vh;
-    width: 100%;
-    padding: 60px 0 40px;
-} */
-.carousel-inner{
-    height: 100%;
-}
-
-/* Typewriter animation inspired by CSS Tricks*/
-.headings h1 {
-    overflow: hidden; 
-    border-right: .15em solid black;
-    white-space: nowrap;
-    margin: 0 auto; 
-    letter-spacing: .15em; 
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-      animation-iteration-count: infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 60% }
-  }
-  
-  /* The headings cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: black; }
-  }
-
- 
-
-
-
-
 /* Navbar section */
 
-  * {margin: 0; padding: 0; box-sizing: border-box;}
+* {margin: 0; padding: 0; box-sizing: border-box;}
 .spacer {width: 100%; height: 100px;}
 
 body {font-family: "Open Sans", sans-serif;}
@@ -246,6 +50,146 @@ nav .nav-bar .nav-bar_item a:after {
 nav .nav-bar .nav-bar_item a:hover:after {
 	width: 100%;
 }
+
+/* Home page */
+.Home .slide{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+/* My social widgets */
+.social-widget-header{
+    position: absolute;
+    margin: 20px 30px 0;
+    padding: 15px 0;
+    justify-content: center;
+}
+
+  /* AMy About section styling */
+.about-me-section-align-left{
+    height: 200vh;
+    width: 100%;
+    padding: 100px 0 40px;
+    padding-left: 50px;
+}
+.About{
+    justify-content: space-evenly;
+    
+}
+.text-black{
+    color: white;
+    background-color: white;
+}
+.img1 {
+    height: 900px;
+    position: relative;
+    top: 0px;
+    /* font-size: 24px; */
+    color: #ffffff;
+    width: 90%;
+    border-radius: 500px;
+    /* padding-bottom: 50px; */
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+      }
+
+.list-inline{
+    display: block;
+    
+}
+
+/* Resume section page styling */
+.Resume{
+    height: 100vh;
+    width: 100%;
+    padding: 60px 0 40px;
+    background-color:  rgba(97, 96, 92, 0.527);
+    z-index: 9478470375037507094755085370953;
+}
+
+/* Styling of my Skills page */
+.Skills{
+    height: 100vh;
+    width: 50%;
+    padding: 60px 0 40px;
+    z-index: 7607603737409743096770347437606;
+}
+
+/* Project section page styling */
+.projects-section{
+    height: max-content;
+    width: 100%;
+    padding: 60px 0 40px;
+    z-index: 9607603737409743096770347437606;
+}
+
+/* This is where I styled my Carousel */
+.Testimonials{
+    height: 100vh;
+    width: 100%;
+    padding: 60px 0 40px;
+    background-size: cover;
+    z-index: 9368963465846594659846896684848;
+    
+}
+.testcarousel{text-align: center;}
+
+.w-50{
+    text-align: center;
+    height: 300px;
+    width: 100px;
+    border-radius: 250px;
+} 
+.carousel-inner{
+    height: 100%;
+}
+.d-block{
+    margin: auto
+}
+
+/* Style section for my Contact Page */
+.Contact-Me{
+    height: max-content;
+    width: 100%;
+    padding: 60px 0 40px;
+    z-index: 94589658638468368436986485846356;
+}
+
+/* Typewriter animation inspired by CSS Tricks*/
+.headings h1 {
+    overflow: hidden; 
+    border-right: .15em solid black;
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+      animation-iteration-count: 1;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 60% }
+  }
+  
+  /* The headings cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+
+ 
+
+
+
+
 
 
 
@@ -326,3 +270,5 @@ body{margin-top:20px;}
 
 
 
+
+ 
