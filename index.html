@@ -472,6 +472,10 @@
   
 
 </section>
+
+
+
+
 <!--Contact Me section starts here-->
 <div class="Contact-Me" id="Contact-Me" style="background-color: black;">
   <div class="container" style="box-sizing: border-box; height: fit-content; width: 200px;">
@@ -544,39 +548,7 @@
       AOS.init();
     </script>
     <script>
-      const makeNavLinksSmooth = ( ) => {
-  const navLinks = document.querySelectorAll( '.nav-link' );
-
-  for ( let n in navLinks ) {
-    if ( navLinks.hasOwnProperty( n ) ) {
-      navLinks[ n ].addEventListener( 'click', e => {
-        e.preventDefault( );
-        document.querySelector( navLinks[ n ].hash )
-          .scrollIntoView( {
-            behavior: "smooth"
-          } );
-      } );
-    }
-  }
-}
-
-const spyScrolling = ( ) => {
-  const sections = document.querySelectorAll( '.headings' );
-
-  window.onscroll = ( ) => {
-    const scrollPos = document.documentElement.scrollTop || document.body.scrollTop;
-
-    for ( let s in sections )
-      if ( sections.hasOwnProperty( s ) && sections[ s ].offsetTop <= scrollPos ) {
-        const id = sections[ s ].id;
-        document.querySelector( '.active' ).classList.remove( 'active' );
-        document.querySelector( `a[href*=${ id }]` ).parentNode.classList.add( 'active' );
-      }
-  } 
-}
-
-makeNavLinksSmooth( );
-spyScrolling( );
+      
     </script>
 </body>
 </html>
